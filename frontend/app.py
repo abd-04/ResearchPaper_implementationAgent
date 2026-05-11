@@ -3,6 +3,10 @@ import os
 import requests
 
 
+BACKEND_URL = os.getenv(
+    "BACKEND_URL",
+    "http://localhost:8000"
+)
 # ---------------- PAGE CONFIG ---------------- #
 
 st.set_page_config(
@@ -88,9 +92,9 @@ if uploaded_file is not None:
             }
 
             response = requests.post(
-                "http://backend:8000/analyze",
-                files=files
-            )
+            f"{BACKEND_URL}/analyze",
+            files=files
+)
 
             result = response.json()
 
