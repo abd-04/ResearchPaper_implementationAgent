@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Generated Outputs
+outputs/
+data/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Pytest Cache
+.pytest_cache/
+
+# Docker
+*.log

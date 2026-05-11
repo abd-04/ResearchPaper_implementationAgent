@@ -1,0 +1,22 @@
+.main {
+    background-color: #0e1117;
+}
+
+.stApp {
+    background-color: #0e1117;
+    color: white;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+.code-box {
+    border-radius: 10px;
+}
